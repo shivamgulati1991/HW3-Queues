@@ -8,7 +8,7 @@ To run the main code file, main.js
 ```
 node main.js <port>
 ```
-Here, <port> is the starting port number, taken as 3000.
+Here, 'port' is the starting port number, taken as 3000.
 
 To run the proxy server code file, proxy.js
 ```

@@ -73,13 +73,14 @@ app.get('/get', function(req, res) {
     });
 })
 
+// PART2: recent method
 app.get('/recent', function(req, res) {
     client.lrange("recenturl", 0, 4, function(err, urls) {
         res.send("Recently visited: "+ urls);
     });
 });
 
-
+// PART24: spawn/destroy/listservers method
 app.get('/spawn', function(req, res) {
 	startPort=startPort+1
 var server = app.listen(startPort, function () 
@@ -112,8 +113,6 @@ app.get('/destroy', function(req, res) {
     });
 
 // HTTP SERVER
- //var port = process.argv.splice(2)[0];
- //var server = app.listen(3000, function () 
  var server = app.listen(process.argv[2], function () 
  {
 

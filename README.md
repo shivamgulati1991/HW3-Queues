@@ -10,7 +10,7 @@ node main.js <port>
 ```
 Here, 'port' is the starting port number, taken as 3000.
 
-To run the proxy server code file, proxy.js
+To run the proxy server code file, proxy.js. Set default at port 5000.
 ```
 node proxy.js
 ```

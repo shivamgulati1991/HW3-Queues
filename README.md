@@ -11,6 +11,15 @@ Set and get the key on localhost:3000.
 ### Complete recent
 Get recent 5 visited URLs by localhost:3000/recent.
 
+### Complete upload/meow
+
+* Upload the images using curl command as below
+```
+curl -F "image=@./img/<image_name.extension>" localhost:3000/upload
+```
+
+* Meow can be used as localhost:3000/meow. This will show the images in the browser.
+
 #### Screencast for above 3 steps
 
 ![Screencast](https://github.com/shivamgulati1991/HW3-Queues/blob/master/1.gif)

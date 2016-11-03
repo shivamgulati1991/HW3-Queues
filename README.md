@@ -2,6 +2,19 @@
 
 Understanding the basic building blocks that form complex infrastructure is an important precedent to being able to construct and deploy it.
 
+#### How to run
+
+To run the main code file, main.js
+```
+node main.js <port>
+```
+Here, <port> is the starting port number, taken as 3000.
+
+To run the proxy server code file, proxy.js
+```
+node proxy.js
+```
+
 ### Complete set/get
 Set and get the key on localhost:3000.
 
